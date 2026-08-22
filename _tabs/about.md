@@ -29,7 +29,7 @@ I hold a **Master of Science in Information Technology and Management** and a **
 **Interested in collaborating?**
 Feel free to reach out for technical discussions, penetration testing inquiries, or professional networking. 
 
-[Check out my Resume](/assets/carl_pierre_louis_resume.pdf) | [View my latest write-ups](/#/)
+[Check out my Resume](/assets/carl_pierre_louis_resume.pdf) | [View my latest write-ups]()
 
 ---
 <style>
