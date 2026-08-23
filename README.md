@@ -1,39 +1,58 @@
-# Chirpy Starter
+---
+layout: page
+title: About Me
+icon: fas fa-info-circle
+order: 4
+permalink: /about/
+---
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+# Carl Pierre-Louis
+## Offensive Security Researcher & Penetration Tester
 
-A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
+Welcome to my corner of the web. I am a cybersecurity professional driven by the challenge of uncovering vulnerabilities and understanding the complexities of secure systems. 
 
-## Why This Starter Exists
+My work in offensive security is defined by a rigorous methodology and a focus on practical, actionable insights. Whether I am deep-diving into penetration testing workflows, exploring new exploit research, or automating reconnaissance, my goal is to push the boundaries of what is possible in digital security.
 
-When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
+### My Background
+I hold a **Master of Science in Information Technology and Management** and a **Bachelor in Management Information System** from Florida Atlantic University. My academic foundation, combined with years of hands-on experience, allows me to bridge the gap between high-level management strategy and deep-level technical execution.
 
-To unlock all features, the following files must be present in your Jekyll site:
+### What I Do
+* **Penetration Testing:** Assessing systems to identify and mitigate risks before adversaries do.
+* **Vulnerability Research:** Analyzing applications and networks to uncover critical flaws.
+* **Offensive Security Strategy:** Developing methodologies that help organizations secure their infrastructure against modern threats.
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+### Brand & Vision
+**CarlOnSecurity** is my personal initiative to share the knowledge I’ve gained through my journey in the cybersecurity field. Beyond the terminal, I am a firm believer in the importance of maintaining a balanced, high-performance lifestyle, which also fuels my passion for fitness and continuous growth.
 
-This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
+---
 
-## Usage
+**Interested in collaborating?**
+Feel free to reach out for technical discussions, penetration testing inquiries, or professional networking. 
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+[Check out my Resume](/assets/carl_pierre_louis_resume.pdf) | [View my latest write-ups](/categories)
 
-## Contributing
-
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+---
+<style>
+  .page-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.7;
+    /* Uses Chirpy's automatic text color variable for body text */
+    color: var(--text-color); 
+  }
+  
+  h1, h2, h3 {
+    /* Uses Chirpy's automatic heading color variable */
+    color: var(--heading-color); 
+  }
+  
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
