@@ -1,11 +1,3 @@
----
-layout: page
-title: About Me
-icon: fas fa-info-circle
-order: 4
-permalink: /about/
----
-
 # Carl Pierre-Louis
 ## Offensive Security Researcher & Penetration Tester
 
